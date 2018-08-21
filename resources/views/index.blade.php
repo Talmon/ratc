@@ -11,18 +11,18 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="/img/cong1.jpg" alt="First slide">
-                <div class="carousel-caption">
+                <div class="carousel-caption text-left">
                     <h5 class="display-3">WELCOME TO RATC</h5>
                     <p class="display-4 lead">Ministering Love In a Hurting World</p>
-                    <button class="btn btn-lg"><a href="#">  NEXTGEN PROJECT </a></button>
-                    <button class="btn btn-lg ml-3"><a href="#"> SERVICES </a> </button>
+                    <button class="btn mr-auto"><a href="#">  NEXTGEN PROJECT </a></button>
+                    <button class="btn ml-3"><a href="#"> SERVICES </a> </button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="/img/nextgen8.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption text-left  d-md-block">
                     <h5 class="display-3">NEXTGEN PROJECT</h5>
-                    <p class="display-4 lead">Building Updates</p>
+                    <p class="display-4 lead">We are moving!!</p>
                     <button class="btn btn-lg"><a href="#">  GIVE </a></button>
                 </div>
             </div>
@@ -47,25 +47,25 @@
 
     <!-- EVENTS -->
     <div class="row">
-        <div class="card-deck">
-            <div class="card">
-            <a href="#" class="badge w-50 ">26th August</a>
+        <div class="">
+            <div class="card col-4  col-sm-12">
+            <a href="#" class="badge">26th August</a>
                 <div class="card-body">
                 <h5 class="card-title">Event Name</h5>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam fugit animi repudiandae, ipsum possimus!</p>
                 <p class="card-text"><small class="text-muted">Click to Register</small></p>
                 </div>
             </div>
-            <div class="card">
-            <a href="#" class="badge w-50 ">15th September</a>
+            <div class="card col-4  col-sm-12">
+            <a href="#" class="badge">15th September</a>
                 <div class="card-body">
                 <h5 class="card-title">Event Name</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum veniam praesentium perspiciatis velit. Doloremque, quae?</p>
                 <p class="card-text"><small class="text-muted">Click to Register</small></p>
                 </div>
             </div>
-            <div class="card">
-            <a href="#" class="badge w-50 ">1st October</a>
+            <div class="card col-4  col-sm-12">
+            <a href="#" class="badge">1st October</a>
                 <div class="card-body">
                 <h5 class="card-title">Event Name</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam saepe aliquid aperiam fugit? Ratione?</p>
@@ -93,8 +93,8 @@
 
     <!-- QUICKTOUR -->
     <div class="quicktour">
-        <div class="card-deck">
-            <div class="card">
+        <div class="">
+            <div class="card col-4  col-sm-12">
                 <img class="card-img-top" src="/img/ratc1.jpg" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title display-4">I'm New Here</h5>
@@ -102,7 +102,7 @@
                 <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card col-4  col-sm-12">
                 <img class="card-img-top " src="/img/ratc4.jpg" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title  display-4">Worship With Us</h5>
@@ -110,7 +110,7 @@
                 <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card col-4  col-sm-12">
                 <img class="card-img-top" src="/img/ratc7.jpg" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title  display-4">Serve</h5>

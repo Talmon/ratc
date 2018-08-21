@@ -31,6 +31,10 @@ body {
     color:white;
 } 
 
+.fa.fa-navicon{
+    color:white;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel-indicators li {
@@ -76,17 +80,7 @@ body {
   color: red;
 }
 
-/* Carousel base class */
-.carousel {
-    margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-    background-color: rgba(63, 9, 63, 0.226);
-    font-family: Raleway;
-}
+
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
@@ -103,6 +97,7 @@ body {
     top:300px;
     right:-50px;
     z-index: 1;
+    z-index: 10;    
 
     h5{
         font-weight: 900;
@@ -115,6 +110,7 @@ body {
     }
 
     button a {
+        font-weight: 900;
         color:white;
     }
 
@@ -232,3 +228,282 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+
+/* RESPONSIVE CSS */
+/* Small screens */
+@media (max-width: 575.98px) { 
+    .navbar-brand img{
+        position:absolute;
+        left: 250px;
+        height:100px;
+        width:100px;
+        z-index: 1;
+    }
+
+    .navbar-toggler:focus, .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+      }
+
+
+      .carousel-indicators li {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(126, 62, 126);
+        box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+    }
+    .carousel-indicators .active {
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+        background-color:rgba(224, 21, 21, 0.815);
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 100px;
+      width: 100px;
+    }
+    
+    .carousel-control-next-icon:after
+    {
+      content: '>';
+      font-size: 55px;
+      font-weight: 900;
+      color: red;
+    }
+    
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 55px;
+      font-weight: 900;
+      color: red;
+    }
+      
+
+    .carousel-item {
+        height: 27rem;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        min-width: 100%;
+        height: 27rem;
+    }
+    .carousel-caption {
+        position:absolute;
+        top:100px;
+        left:0;
+        z-index: 1;
+        
+    
+        h5{
+            font-weight: 900;
+            font-size:30px;
+        }
+        p {
+            font-weight: 900;
+            font-size:20px;
+        }
+    
+        .btn{
+            margin-left: 20px;
+            margin-top:70px;
+            display:block;
+            display:inline-block;
+            color:white;
+            background-color: rgba(224, 21, 21, 0.815);
+        }
+    
+        button a {
+            font-weight: 900;
+            font-size: 18px;
+            color:white;
+        }
+    
+        button a:hover {
+            text-decoration: none;
+            color:white;
+        }
+    }
+    
+    .badge{
+        display:block;
+        display:inline-block;
+        height:70px;
+        width: 100%;
+        font-size:25px;
+        padding: 20px;
+        color:white;
+        background-color: rgba(236, 14, 14, 0.932);
+    }
+    
+    .badge:hover{
+        color:white;
+        text-decoration: none;
+    }
+    
+    
+    .jumbotron{
+        a{
+            background-color: rgba(77, 17, 77, 0.973);
+        }
+    }
+    
+    .quicktour {
+        img{
+            height:60%;
+        }
+    
+        .btn{
+            background-color: #510f88;
+        }
+    }
+    
+    
+}
+/* End Small Screens */
+
+/* Mobile Phones */
+@media (max-width: 767.98px) { 
+    .navbar-brand img{
+        position:absolute;
+        left: 250px;
+        height:100px;
+        width:100px;
+        z-index: 1;
+    }
+
+    .navbar-toggler:focus, .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+      }
+
+
+      .carousel-indicators li {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(126, 62, 126);
+        box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+    }
+    .carousel-indicators .active {
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+        background-color:rgba(224, 21, 21, 0.815);
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 100px;
+      width: 100px;
+    }
+    
+    .carousel-control-next-icon:after
+    {
+      content: '>';
+      font-size: 55px;
+      font-weight: 900;
+      color: red;
+    }
+    
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 55px;
+      font-weight: 900;
+      color: red;
+    }
+      
+
+    .carousel-item {
+        height: 27rem;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        min-width: 100%;
+        height: 27rem;
+    }
+    .carousel-caption {
+        position:absolute;
+        top:100px;
+        left:0;
+        z-index: 1;        
+    
+        h5{
+            font-weight: 900;
+            font-size:30px;
+        }
+        p {
+            font-weight: 900;
+            font-size:20px;
+        }
+    
+        .btn{
+            margin-left: 20px;
+            margin-top:70px;
+            display:block;
+            display:inline-block;
+            color:white;
+            background-color: rgba(224, 21, 21, 0.815);
+        }
+    
+        button a {
+            font-weight: 900;
+            font-size: 18px;
+            color:white;
+        }
+    
+        button a:hover {
+            text-decoration: none;
+            color:white;
+        }
+    }
+    
+    .badge{
+        display:block;
+        display:inline-block;
+        height:70px;
+        width: 100%;
+        padding: 20px;
+        color:white;
+        background-color: rgba(236, 14, 14, 0.932);
+    }
+    
+    .badge:hover{
+        color:white;
+        text-decoration: none;
+    }
+    
+    
+    .jumbotron{
+        a{
+            background-color: rgba(77, 17, 77, 0.973);
+        }
+    }
+    
+    .quicktour {
+        img{
+            height:60%;
+        }
+    
+        .btn{
+            background-color: #510f88;
+        }
+    }
+    
+ }
+
+/* End Mobile Phones */

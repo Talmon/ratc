@@ -3,7 +3,10 @@
 </a>
     <nav class="navbar navbar-expand-md">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="">
+            <p class="lead display-5 text-light">Menu</p>    
+            <i class="fa fa-navicon"></i>
+            </span>
         </button>
         <div class="collapse mx-auto justify-content-center navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
