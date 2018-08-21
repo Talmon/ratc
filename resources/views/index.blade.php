@@ -48,7 +48,7 @@
     <!-- EVENTS -->
     <div class="row">
         <div class="card-deck">
-            <div class="col-sm-12">
+            <div class="col-sm-12 col-xl-4 col-lg-4">
                 <div class="card">
                 <a href="#" class="badge">26th August</a>
                     <div class="card-body">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             
-            <div class="col-sm-12">
+            <div class="col-sm-12 col-xl-4 col-lg-4">
                 <div class="card">
                 <a href="#" class="badge">1st September</a>
                     <div class="card-body">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             
-            <div class="col-sm-12">
+            <div class="col-sm-12 col-xl-4 col-lg-4">
                 <div class="card">
                 <a href="#" class="badge">30th October
                 </a>
@@ -103,8 +103,8 @@
 
     <!-- QUICKTOUR -->
     <div class="quicktour">
-        <div class="">
-            <div class="col-sm-12">
+        <div class="card-deck">
+            <div class="col-sm-12 col-xl-4 col-lg-4">
                 <div class="card">
                     <img class="card-img-top" src="/img/ratc1.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -115,7 +115,7 @@
                 </div>
             </div>
            
-            <div class="col-sm-12">
+            <div class="col-sm-12 col-xl-4 col-lg-4">
                 <div class="card">
                     <img class="card-img-top " src="/img/ratc4.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -126,7 +126,7 @@
                 </div>
             </div>
             
-            <div class="col-sm-12">
+            <div class="col-sm-12 col-xl-4 col-lg-4">
                 <div class="card">
                     <img class="card-img-top" src="/img/ratc7.jpg" alt="Card image cap">
                     <div class="card-body">
