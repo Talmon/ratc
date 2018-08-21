@@ -47,31 +47,40 @@
 
     <!-- EVENTS -->
     <div class="row">
-        <div class="">
-            <div class="card col-4  col-sm-12">
-            <a href="#" class="badge">26th August</a>
-                <div class="card-body">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam fugit animi repudiandae, ipsum possimus!</p>
-                <p class="card-text"><small class="text-muted">Click to Register</small></p>
+        <div class="card-deck">
+            <div class="col-sm-12">
+                <div class="card">
+                <a href="#" class="badge">26th August</a>
+                    <div class="card-body">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam fugit animi repudiandae, ipsum possimus!</p>
+                    <p class="card-text"><small class="text-muted">Click to Register</small></p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-4  col-sm-12">
-            <a href="#" class="badge">15th September</a>
-                <div class="card-body">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum veniam praesentium perspiciatis velit. Doloremque, quae?</p>
-                <p class="card-text"><small class="text-muted">Click to Register</small></p>
+            
+            <div class="col-sm-12">
+                <div class="card">
+                <a href="#" class="badge">26th August</a>
+                    <div class="card-body">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam fugit animi repudiandae, ipsum possimus!</p>
+                    <p class="card-text"><small class="text-muted">Click to Register</small></p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-4  col-sm-12">
-            <a href="#" class="badge">1st October</a>
-                <div class="card-body">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam saepe aliquid aperiam fugit? Ratione?</p>
-                <p class="card-text"><small class="text-muted">Click to Register</small></p>
+            
+            <div class="col-sm-12">
+                <div class="card">
+                <a href="#" class="badge">26th August</a>
+                    <div class="card-body">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam fugit animi repudiandae, ipsum possimus!</p>
+                    <p class="card-text"><small class="text-muted">Click to Register</small></p>
+                    </div>
                 </div>
             </div>
+        
         </div>
     </div>
     <!-- END EVENTS -->
@@ -94,30 +103,38 @@
     <!-- QUICKTOUR -->
     <div class="quicktour">
         <div class="">
-            <div class="card col-4  col-sm-12">
-                <img class="card-img-top" src="/img/ratc1.jpg" alt="Card image cap">
-                <div class="card-body">
-                <h5 class="card-title display-4">I'm New Here</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit sequi nulla, voluptatem earum accusamus iure obcaecati soluta voluptate repellat ipsa.</p>
-                <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
+            <div class="col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="/img/ratc1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title display-4">I'm New Here</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit sequi nulla, voluptatem earum accusamus iure obcaecati soluta voluptate repellat ipsa.</p>
+                    <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
+                    </div>
                 </div>
             </div>
-            <div class="card col-4  col-sm-12">
-                <img class="card-img-top " src="/img/ratc4.jpg" alt="Card image cap">
-                <div class="card-body">
-                <h5 class="card-title  display-4">Worship With Us</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus tempore iure tempora eveniet, rem impedit! Quod non aliquid soluta porro?</p>
-                <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
+           
+            <div class="col-sm-12">
+                <div class="card">
+                    <img class="card-img-top " src="/img/ratc4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title  display-4">Worship With Us</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus tempore iure tempora eveniet, rem impedit! Quod non aliquid soluta porro?</p>
+                    <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
+                    </div>
                 </div>
             </div>
-            <div class="card col-4  col-sm-12">
-                <img class="card-img-top" src="/img/ratc7.jpg" alt="Card image cap">
-                <div class="card-body">
-                <h5 class="card-title  display-4">Serve</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat adipisci aliquid nemo magni natus veniam laboriosam optio voluptatem sapiente harum.</p>
-                <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
+            
+            <div class="col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="/img/ratc7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title  display-4">Serve</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat adipisci aliquid nemo magni natus veniam laboriosam optio voluptatem sapiente harum.</p>
+                    <a class="btn text-light btn-lg" href="#" role="button">Learn more</a>
+                    </div>
                 </div>
-            </div>
+            </div>  
         </div>
     </div>
      <!--END QUICKTOUR -->
