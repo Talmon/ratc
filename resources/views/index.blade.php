@@ -61,7 +61,7 @@
             
             <div class="col-sm-12">
                 <div class="card">
-                <a href="#" class="badge">26th August</a>
+                <a href="#" class="badge">1st September</a>
                     <div class="card-body">
                     <h5 class="card-title">Event Name</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam fugit animi repudiandae, ipsum possimus!</p>
@@ -72,7 +72,8 @@
             
             <div class="col-sm-12">
                 <div class="card">
-                <a href="#" class="badge">26th August</a>
+                <a href="#" class="badge">30th October
+                </a>
                     <div class="card-body">
                     <h5 class="card-title">Event Name</h5>
                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam fugit animi repudiandae, ipsum possimus!</p>
