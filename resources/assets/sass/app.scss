@@ -1,6 +1,6 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Rakkas|PT+Sans');
 
 // Variables
 @import 'variables';
@@ -13,15 +13,22 @@ body {
     font-family: Raleway;
 }
 .navbar {
-    background-color: rgb(126, 62, 126);
+    position:absolute;
+    top:0;
+    z-index:1;
+    background-color:rgba(0, 0, 0, 0.26);
     font-family: Raleway;
-    font-size: 25px;
-    margin-top: -25px;
+    font-size: 19px;
+    height:5rem;
+    width:100%;
 }
 .navbar-brand img{
     position:absolute;
-    left:70px;
+    top:0;
+    left:10px;
     z-index: 1;
+    height: 150px;
+    width: 150px;
 }
 .nav-link {
     color: white;
@@ -34,14 +41,20 @@ body {
 .fa.fa-navicon{
     color:white;
 }
+.dropdown-menu{
+    background-color:rgba(82, 24, 90, 0.925);
+}
+.dropdown-menu a:hover {
+    background-color:rgba(102, 34, 110, 0.966);
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel-indicators li {
     display: inline-block;
-    width: 48px;
-    height: 48px;
-    margin: 10px;
+    width: 35px;
+    height: 35px;
+    margin-top: 200px;
     text-indent: 0;
     cursor: pointer;
     border: none;
@@ -50,9 +63,9 @@ body {
     box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
 }
 .carousel-indicators .active {
-    width: 48px;
-    height: 48px;
-    margin: 10px;
+    width: 35px;
+    height: 35px;
+    margin-top: 200px;
     background-color:rgba(224, 21, 21, 0.815);
 }
 
@@ -60,10 +73,10 @@ body {
 .carousel-control-next-icon {
   height: 100px;
   width: 100px;
-  outline: rgb(126, 62, 126);
+  outline: #fff;
   background-size: 100%, 100%;
   border-radius: 50%;
-  border: 1px solid rgb(126, 62, 126);
+  border: 1px solid white;
   background-image: none;
 }
 
@@ -71,36 +84,40 @@ body {
 {
   content: '>';
   font-size: 55px;
-  color: red;
+  color: white;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: red;
+  color: white;
 }
 
 
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 48rem;
+    height: 35rem;
 }
-.carousel-dark-overlay{
-    height: 48rem;
-    background-color: rgba(26, 24, 24, 0.226);
 
-}
 .carousel-item > img {
-    position: absolute;
-    top: 0;
     min-width: 100%;
-    height: 48rem;
+    height: 35rem;
 }
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.377);
+  }
 .carousel-caption {
     position:absolute;
     top:200px;
-    right:-50px;
+    left:350px;
     z-index: 1;
     z-index: 10;    
 
@@ -109,9 +126,10 @@ body {
     }
 
     button{
-        font-size: 30px;
+        font-size: 20px;
         color:white;
-        background-color: rgba(224, 21, 21, 0.815);
+        background-color:transparent;
+        border:5px solid #ffffff;
     }
 
     button a {
@@ -123,6 +141,10 @@ body {
         text-decoration: none;
         color:white;
     }
+    p{
+        font-size:30px;
+        font-weight: 900;
+    }
 }
 
 .badge{
@@ -130,8 +152,7 @@ body {
     font-size:25px;
     padding: 20px;
     color:white;
-    background-color: rgba(236, 14, 14, 0.932);
-}
+    background-color: rgba(77, 17, 77, 0.973);}
 
 .badge:hover{
     color:white;
@@ -145,13 +166,35 @@ body {
     }
 }
 
-.quicktour {
-    img{
-        height:60%;
+.quicktour-img-caption {
+   position:absolute;
+   bottom:0;
+   background-color: rgba(57, 9, 70, 0.884);
+   color:white;
+   z-index:1;
+   width:100%;
+   font-family: 'PT Sans', sans-serif;
+   h1{
+    font-size:40px;   
+    font-weight:900;
+   }
+  
+}
+
+.event-countdown{
+    margin-top: -50px;
+
+    h1{
+        font-size:50px;
+        font-weight:900;
+        margin-top:20%;
     }
 
-    .btn{
-        background-color: #510f88;
+    .clock{
+        margin-left:20%;
+        font-size:25px;
+        font-weight:600;
+        margin-top:10%;
     }
 }
 
@@ -170,7 +213,6 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    margin-top:200px;
     background: #510f88 !important;
 }
 #footer h5{
@@ -225,290 +267,60 @@ section .section-title {
     font-weight: 700;
 }
 
-@media (max-width:767px){
-	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-}
-}
+
+
+
 
 /* RESPONSIVE CSS */
-/* Small screens */
-@media (max-width: 575.98px) { 
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
     .navbar-brand img{
-        position:absolute;
-        left: 250px;
         height:100px;
         width:100px;
-        z-index: 1;
+        margin-left: 8px;
     }
+    .collapse{
+        position:relative;
+        z-index:1;
+        margin-top:20px;
+        background-color: white;
+        height:40rem;
 
-    .navbar-toggler:focus, .navbar-toggler:active {
-        outline: none;
-        box-shadow: none;
-      }
-
-
-      .carousel-indicators li {
-        display: inline-block;
-        width: 28px;
-        height: 28px;
-        margin: 10px;
-        text-indent: 0;
-        cursor: pointer;
-        border: none;
-        border-radius: 50%;
-        background-color: rgb(126, 62, 126);
-        box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+        a {
+            color:#1f0831;
+        }
+        a:hover {
+            color:#1f0831;
+        }
     }
-    .carousel-indicators .active {
-        width: 28px;
-        height: 28px;
-        margin: 10px;
-        background-color:rgba(224, 21, 21, 0.815);
-    }
-    
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      height: 100px;
-      width: 100px;
-    }
-    
-    .carousel-control-next-icon:after
-    {
-      content: '>';
-      font-size: 55px;
-      font-weight: 900;
-      color: red;
-    }
-    
-    .carousel-control-prev-icon:after {
-      content: '<';
-      font-size: 55px;
-      font-weight: 900;
-      color: red;
-    }
-      
-
-    .carousel-item {
-        height: 27rem;
-    }
-    .carousel-item > img {
-        position: absolute;
-        top: 0;
-        min-width: 100%;
-        height: 27rem;
-    }
-    .carousel-caption {
-        position:absolute;
-        top:100px;
-        left:0;
-        z-index: 1;
+    .carousel-caption{
+        width: 55%;
+        margin-left: -250px;
+        margin-top: -70px;
+        h5{
+            font-size: 40px;
+            font-weight: 900;
+            
+        }
         
-    
-        h5{
-            font-weight: 900;
-            font-size:30px;
-        }
-        p {
-            font-weight: 900;
-            font-size:20px;
-        }
-    
-        .btn{
-            margin-left: 20px;
-            margin-top:70px;
-            display:block;
-            display:inline-block;
-            color:white;
-            background-color: rgba(224, 21, 21, 0.815);
-        }
-    
-        button a {
-            font-weight: 900;
-            font-size: 18px;
-            color:white;
-        }
-    
-        button a:hover {
-            text-decoration: none;
-            color:white;
-        }
     }
-    
-    .badge{
-        display:block;
-        display:inline-block;
-        height:70px;
-        width: 100%;
-        font-size:25px;
-        padding: 20px;
-        color:white;
-        background-color: rgba(236, 14, 14, 0.932);
-    }
-    
-    .badge:hover{
-        color:white;
-        text-decoration: none;
-    }
-    
-    
-    .jumbotron{
-        a{
-            background-color: rgba(77, 17, 77, 0.973);
-        }
-    }
-    
+
     .quicktour {
         img{
-            height:60%;
+            width:100%;
+            height:400px;
         }
-    
-        .btn{
-            background-color: #510f88;
-        }
-    }
-    
-    
-}
-/* End Small Screens */
-
-/* Mobile Phones */
-@media (max-width: 767.98px) { 
-    .navbar-brand img{
-        position:absolute;
-        left: 250px;
-        height:100px;
-        width:100px;
-        z-index: 1;
     }
 
-    .navbar-toggler:focus, .navbar-toggler:active {
-        outline: none;
-        box-shadow: none;
-      }
+    .event-countdown{
+        .clock{
+            margin-left: -10px;
+        }
+    }
+
+        
+
+    }
 
 
-      .carousel-indicators li {
-        display: inline-block;
-        width: 28px;
-        height: 28px;
-        margin: 10px;
-        text-indent: 0;
-        cursor: pointer;
-        border: none;
-        border-radius: 50%;
-        background-color: rgb(126, 62, 126);
-        box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
-    }
-    .carousel-indicators .active {
-        width: 28px;
-        height: 28px;
-        margin: 10px;
-        background-color:rgba(224, 21, 21, 0.815);
-    }
-    
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      height: 100px;
-      width: 100px;
-    }
-    
-    .carousel-control-next-icon:after
-    {
-      content: '>';
-      font-size: 55px;
-      font-weight: 900;
-      color: red;
-    }
-    
-    .carousel-control-prev-icon:after {
-      content: '<';
-      font-size: 55px;
-      font-weight: 900;
-      color: red;
-    }
-      
-
-    .carousel-item {
-        height: 27rem;
-    }
-    .carousel-item > img {
-        position: absolute;
-        top: 0;
-        min-width: 100%;
-        height: 27rem;
-    }
-    .carousel-caption {
-        position:absolute;
-        top:100px;
-        left:0;
-        z-index: 1;        
-    
-        h5{
-            font-weight: 900;
-            font-size:30px;
-        }
-        p {
-            font-weight: 900;
-            font-size:20px;
-        }
-    
-        .btn{
-            margin-left: 20px;
-            margin-top:70px;
-            display:block;
-            display:inline-block;
-            color:white;
-            background-color: rgba(224, 21, 21, 0.815);
-        }
-    
-        button a {
-            font-weight: 900;
-            font-size: 18px;
-            color:white;
-        }
-    
-        button a:hover {
-            text-decoration: none;
-            color:white;
-        }
-    }
-    
-    .badge{
-        display:block;
-        display:inline-block;
-        height:70px;
-        width: 100%;
-        padding: 20px;
-        color:white;
-        background-color: rgba(236, 14, 14, 0.932);
-    }
-    
-    .badge:hover{
-        color:white;
-        text-decoration: none;
-    }
-    
-    
-    .jumbotron{
-        a{
-            background-color: rgba(77, 17, 77, 0.973);
-        }
-    }
-    
-    .quicktour {
-        img{
-            height:60%;
-        }
-    
-        .btn{
-            background-color: #510f88;
-        }
-    }
-    
- }
-
-/* End Mobile Phones */
+// TIMER CSS
