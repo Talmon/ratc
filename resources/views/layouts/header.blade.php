@@ -1,7 +1,7 @@
 
     <nav class="navbar navbar-expand-md">
     <a class="navbar-brand" href="#">
-    <img src="/img/logo.jpg" alt="" >
+    <img src="/img/ratc-logo.png" alt="" >
     </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="">
