@@ -127,7 +127,7 @@
         <h1>Upcoming Events</h1>
         <div class="">
             <div class="col-md-3">
-                <h3><span class="badge badge-info">Sep 24</span></h3>
+                <h3><span class="badge badge-info">Nov 26</span></h3>
             </div>
             <div class="col-md-9">
                 <strong>Evening Service</strong><br>
@@ -138,7 +138,7 @@
 
         <div class="events">
             <div class="col-md-3">
-                <h3><span class="badge badge-info">Sep 27</span></h3>
+                <h3><span class="badge badge-info">Nov 29</span></h3>
             </div>
             <div class="col-md-9">
                 <strong>Evening Service</strong><br>
@@ -149,7 +149,7 @@
 
         <div class="events">
             <div class="col-md-3">
-                <h3><span class="badge badge-info">Oct 1</span></h3>
+                <h3><span class="badge badge-info">Dec 3</span></h3>
             </div>
             <div class="col-md-9">
                 <strong>Evening Service</strong><br>

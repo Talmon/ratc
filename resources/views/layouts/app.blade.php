@@ -46,7 +46,7 @@ $(document).ready(function() {
   var currentDate = new Date();
  
   // Target future date/24 hour time/Timezone.
-  var targetDate = moment.tz("2018-09-24 17:30", "Africa/Nairobi");
+  var targetDate = moment.tz("2018-11-26 17:30", "Africa/Nairobi");
  
   // Calculate the difference in seconds between the future and current date
   var diff = targetDate / 1000 - currentDate.getTime() / 1000;
