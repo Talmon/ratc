@@ -10667,6 +10667,27 @@ body {
   margin-top: 10%;
 }
 
+.header-pic {
+  margin-top: 0px;
+  margin-left: -50px;
+  width: 120%;
+  height: 500px;
+  margin-bottom: 10px;
+  z-index: -1;
+}
+
+.header-text {
+  margin-top: -300px;
+  color: white;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.aboutus-content {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
 /* Footer */
 
 section {
@@ -10681,6 +10702,7 @@ section .section-title {
 }
 
 #footer {
+  margin-top: 20px;
   background: #510f88 !important;
 }
 

@@ -12,19 +12,19 @@
         <div class="collapse mx-auto justify-content-center navbar-collapse w-100" id="navbarNavDropdown">
             <ul class="navbar-nav ml-5">
                 <li class="nav-item active ml-2">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ml-1">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="/about-us">About Us</a>
                 </li>
                 <li class="nav-item ml-1">
-                    <a class="nav-link" href="#">I'm New Here</a>
+                    <a class="nav-link" href="/im-new-here">I'm New Here</a>
                 </li>
                 <li class="nav-item ml-1">
-                    <a class="nav-link" href="#">New Venue</a>
+                    <a class="nav-link" href="/new-venue">New Venue</a>
                 </li>
                 <li class="nav-item ml-1">
-                    <a class="nav-link" href="#">Partnership</a>
+                    <a class="nav-link" href="/partnership">Partnership</a>
                 </li>
                 <li class="nav-item ml-1 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

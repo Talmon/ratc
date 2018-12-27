@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+
+Route::get('/new-venue', function () {
+    return view('new-venue');
+});
+
+
+Route::get('/partnership', function () {
+    return view('partnership');
+});
+
+
+Route::get('/im-new-here', function () {
+    return view('im-new-here');
+});
+

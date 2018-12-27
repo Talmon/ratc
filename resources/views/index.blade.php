@@ -10,7 +10,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="/img/baptism3.jpg" alt="First slide">
+            <img class="d-block w-100" src="/img/hd1.jpg" alt="First slide">
             <div class="carousel-caption text-left">
                 <h5 class="display-4 animate-plus" data-animation-group="group2" data-animations="bounceIn, zoomOut,fadeIn"
                     data-animation-duration="3s,2s,2s" data-animation-delay="2000">Ministering Love In a Hurting World</h5>
@@ -32,10 +32,26 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="/img/service14.jpg" alt="Third slide">
+            <img class="d-block w-100" src="/img/hd2.jpg" alt="Third slide">
+            <div class="carousel-caption text-left  d-md-block">
+                <h5 class="display-3 animate-plus" data-animation-group="group3" data-animations="bounceIn, zoomOut,fadeIn"
+                    data-animation-duration="3s,2s,2s" data-animation-delay="">MONDAY EVENING SERVICE</h5>
+                <p class="display-4 lead animate-plus" data-animations="fadeInRight" data-animation-delay="6s"
+                    data-animation-duration="5s">5:30PM - 8:00PM</p>
+                <button class="btn btn-lg animate-plus" data-animations="fadeInLeft" data-animation-delay="6s"
+                    data-animation-duration="5s"><a href="#"> JOIN US </a></button>
+            </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="/img/service11.jpg" alt="Third slide">
+            <img class="d-block w-100" src="/img/hd3.jpg" alt="Third slide">
+            <div class="carousel-caption text-left  d-md-block">
+                <h5 class="display-3 animate-plus" data-animation-group="group3" data-animations="bounceIn, zoomOut,fadeIn"
+                    data-animation-duration="3s,2s,2s" data-animation-delay="">THURSDAY EVENING SERVICE</h5>
+                <p class="display-4 lead animate-plus" data-animations="fadeInRight" data-animation-delay="6s"
+                    data-animation-duration="5s">5:30PM - 8:00PM</p>
+                <button class="btn btn-lg animate-plus" data-animations="fadeInLeft" data-animation-delay="6s"
+                    data-animation-duration="5s"><a href="#"> JOIN US </a></button>
+            </div>
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -52,10 +68,10 @@
 <!-- WELCOME SECTION -->
 <div class="jumbotron bg-light text-center welcome">
     <h1 class="display-4">Welcome to RATC!</h1>
-    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus harum totam? Voluptas
-        eaque dolores porro, doloribus esse corporis eveniet.</p>
+    <p class="lead">
+Our mission is to minister love in a hurting world. 
+We are based in Nairobi, Kenya. Our mandate to reach the lost with the love of Christ, to teach them the word and who they are in God and to empower believers by the Holy Spirit to live to their fullness. </p>
     <hr class="my-4">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, modi veniam? Velit.</p>
     <a class="btn text-light btn-lg" href="#" role="button">Know More</a>
 </div>
 
@@ -165,7 +181,7 @@
 <!-- LOCATION -->
 <hr class="mt-5" >
 <h3 class=" text-center display-4">Our Location</h3>
-<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nextgen%20mall%20nairobi&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="1200" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nextgen&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div>
 
 <!-- END LOCATION -->
 
