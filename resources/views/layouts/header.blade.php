@@ -18,7 +18,7 @@
                     <a class="nav-link" href="/about-us">About Us</a>
                 </li>
                 <li class="nav-item ml-1">
-                    <a class="nav-link" href="/im-new-here">I'm New Here</a>
+                    <a class="nav-link" href="#">I'm New Here</a>
                 </li>
                 <li class="nav-item ml-1">
                     <a class="nav-link" href="/new-venue">New Venue</a>

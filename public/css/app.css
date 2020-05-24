@@ -10473,6 +10473,7 @@ a.text-dark:focus {
 
 body {
   font-family: Raleway;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -10688,6 +10689,11 @@ body {
   margin-left: 50px;
 }
 
+.mapouter {
+  margin-left: 0px;
+  width: 1500px;
+}
+
 /* Footer */
 
 section {
@@ -10702,7 +10708,7 @@ section .section-title {
 }
 
 #footer {
-  margin-top: 20px;
+  margin-top: 1px;
   background: #510f88 !important;
 }
 

@@ -44,9 +44,24 @@ $(document).ready(function() {
  
   // Grab the current date
   var currentDate = new Date();
+
+  //console.log(currentDate.getDay());
+
+  if(currentDate.getDay() > 1){
+
+  }
+
+  var serviceDate = "2018-12-31";
+
+  var d = new Date();
+  d.setDate(d.getDate() + (1 + 7 - d.getDay()) % 7);
+
+  var serviceDate = $.format.date(d, 'yyyy/MM/dd');
+  console.log(serviceDate);
+  //serviceDate = moment().format(d);
  
   // Target future date/24 hour time/Timezone.
-  var targetDate = moment.tz("2018-11-26 17:30", "Africa/Nairobi");
+  var targetDate = moment.tz(serviceDate + " 21:00", "Africa/Nairobi");
  
   // Calculate the difference in seconds between the future and current date
   var diff = targetDate / 1000 - currentDate.getTime() / 1000;

@@ -5,9 +5,9 @@
 <div class="container-fluid animate-plus" data-animations="bounceInDown" 
                     data-animation-duration="5s">
  
-  <img src="/img/nextgen7.jpeg" class="header-pic card-img" alt="...">
+  <img src="/img/homepage/venue.jpg" class="header-pic card-img" alt="...">
   
-  <h2 class="header-text  text-center">New Venue</h2> 
+  <!-- <h2 class="header-text  text-center">New Venue</h2>  -->
 </div>
 
 <div class="aboutus-content">
@@ -17,12 +17,12 @@ RATC is moving to a new venue. We have been using different hired venues since R
 </p>
 
 <p class="lead">
-We have found a venue on Mombasa road. A beautiful space on 6th floor of Nextgen Mall. The idea is to own the space by the end of 8years. 
+We have found a venue at Ngara Shopping Complex,near Sarakasi Dome.A beautiful space on 5th floor. 
 </p>
 
 
 <p class="lead">
-It is an expensive venture so feel free to support us in any way you would be led to. The whole set up will cost us 26 Million Kenyan Shillings. Buying the place will cost us 100 Million Kenyan Shillings including set up costs. We are trusting God for provision. It is His work and He will provide.
+It is an expensive venture so feel free to support us in any way you would be led to.We are trusting God for provision. It is His work and He will provide.
 
 Wherever you are in the world you can give through any of the ways below:
 </p>

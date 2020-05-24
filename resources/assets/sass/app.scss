@@ -11,6 +11,7 @@
 
 body {
     font-family: Raleway;
+    overflow-x: hidden;
 }
 .navbar {
     position:absolute;
@@ -220,7 +221,11 @@ body {
     margin-left: 50px;
 }
 
-
+//google map styling
+.mapouter {
+    margin-left: 0px;
+    width: 1500px;
+}
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -235,7 +240,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    margin-top: 20px;
+    margin-top: 1px;
     background: #510f88 !important;
 }
 #footer h5{
